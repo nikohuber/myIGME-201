@@ -17,7 +17,7 @@ namespace ParsingAndFormatting
     // IGME 201
     // 9-14-23
     // Random Number Game
-    internal class Program
+    internal class Program 
     {
         static void Main(string[] args) 
         { 
