@@ -1,0 +1,8 @@
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\bin\Debug\MoreClasses.exe.config
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\bin\Debug\MoreClasses.exe
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\bin\Debug\MoreClasses.pdb
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\obj\Debug\MoreClasses.csproj.AssemblyReference.cache
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\obj\Debug\MoreClasses.csproj.SuggestedBindingRedirects.cache
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\obj\Debug\MoreClasses.csproj.CoreCompileInputs.cache
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\obj\Debug\MoreClasses.exe
+C:\Users\B3PIS\source\repos\nikohuber\myIGME-201\exam 1\MoreClasses\obj\Debug\MoreClasses.pdb
