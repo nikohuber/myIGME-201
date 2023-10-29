@@ -5,30 +5,37 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
+// Niko Huber
+// Exam 2
+// IGME 201
 namespace question4_7
 {
     internal class Program
     {
+        // main
         static void Main(string[] args)
         {
 
+            // create new objects
             Tardis tardis = new Tardis();
             PhoneBooth phoneBooth = new PhoneBooth();
 
+            // call method for both
             UsePhone(tardis);
             UsePhone(phoneBooth);
             
 
         }
 
-
+        // method for calling internal methods
         static void UsePhone(object obj)
         {
-
+            // parent methods
             PhoneInterface phoneInterface = (PhoneInterface)obj;
             phoneInterface.MakeCall();
             phoneInterface.HangUp();
 
+            // child methods
             if(phoneInterface.GetType() == typeof(PhoneBooth))
             {
                 PhoneBooth phoneBooth = (PhoneBooth)phoneInterface;
@@ -37,6 +44,7 @@ namespace question4_7
             }
         }
 
+        // tardis class
         public class Tardis : RotaryPhone
         {
             private bool sonicScrewdriver;
@@ -45,16 +53,18 @@ namespace question4_7
             public double exteriorSurfaceArea;
             public double interiorVolume;
 
+            // == 
             public static bool operator ==(Tardis tardis1, Tardis tardis2)
             {
 
                 return (tardis1 == tardis2);
             }
+            // !=
             public static bool operator !=(Tardis tardis1, Tardis tardis2)
             {
                 return (tardis1 != tardis2);
             }
-
+            // >=
             public static bool operator >=(Tardis tardis1, Tardis tardis2)
             {
                 if(tardis1.whichDrWho == 10)
@@ -66,11 +76,12 @@ namespace question4_7
                     return (tardis1 >= tardis2);
                 }
             }
+            // <=
             public static bool operator <=(Tardis tardis1, Tardis tardis2)
             {
                 return (tardis1 <= tardis2);
             }
-
+            // >
             public static bool operator >(Tardis tardis1, Tardis tardis2)
             {
                 if (tardis1.whichDrWho == 10)
@@ -82,6 +93,7 @@ namespace question4_7
                     return (tardis1 > tardis2);
                 }
             }
+            // <
             public static bool operator <(Tardis tardis1, Tardis tardis2)
             {
                 return (tardis1 > tardis2);
